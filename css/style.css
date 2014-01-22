@@ -1,0 +1,152 @@
+/* Reset */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+header, section, footer, nav, aside, article, hgroup{
+	display:block;
+}
+body{
+	text-align:center; /* behövs för äldre browsers för att få allt centrerat */
+	background-color: white;
+}
+/* Sidans huvuddel, alltså allt utom body bakgrunden */
+#divbody{
+	background-color: ;
+	border: none;
+	width: 1000px;
+	margin: 60px auto;
+	text-align:left;
+}
+/* Topruta - banner */
+
+#banner {
+	background-image:url('pics/banner.png');
+	width:581px;
+	height:156px;
+	margin-bottom: -86px;
+	background-repeat: no-repeat;
+}
+#thecontent {
+	background-color: #4191ce;
+	border: none;
+	width: 1000px;
+	height: 1000px;
+	margin: 0px auto;
+	text-align:left;
+}
+#menu {
+	margin: 0px;
+	color: white;
+}
+#menu li {
+	display: inline-block;
+	margin-right: -4px;
+	margin-bottom: 40px;
+}
+
+#menu li a {
+	font: 22px calibri;
+}
+
+#menu li a:link{
+	color: white;
+	text-decoration: none;
+}
+#menu li a:visited{
+	color: white;
+	text-decoration: none;
+}
+#menu li a:hover{
+	color: white;
+	background-color: #4191ce;
+	text-decoration: none;
+}
+.start {
+	background-color: #4191ce;
+	padding:40px 48px;
+}
+.calendar{
+	background-color: #0a61a4;
+	padding: 40px 28px;
+}
+.about{
+	background-color: #0a61a4;
+	padding:40px 43px;
+}
+/* Rutan längst ned på hela sidan */
+#thefooter{
+	clear:both;
+	font: 13px calibri italic;
+	padding:10px;
+	background: #66a2d1;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.printonly{
+	display: none;
+}
