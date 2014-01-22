@@ -9,14 +9,19 @@ header, section, footer, nav, aside, article, hgroup{
 }
 body{
 	text-align:center; /* behövs för äldre browsers för att få allt centrerat */
-	background-color: white;
+	
+	background-image: url(pics/wood.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-attachment: fixed;
+
 }
 /* Sidans huvuddel, alltså allt utom body bakgrunden */
 #divbody{
 	background-color: ;
 	border: none;
 	width: 1000px;
-	margin: 60px auto;
+	margin: 150px auto;
 	text-align:left;
 }
 /* Topruta - banner */
@@ -32,7 +37,7 @@ body{
 	background-color: #4191ce;
 	border: none;
 	width: 1000px;
-	height: 1000px;
+	height: 300px;
 	margin: 0px auto;
 	text-align:left;
 }
