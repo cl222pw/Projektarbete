@@ -64,7 +64,7 @@ body{
 	text-decoration: none;
 }
 .start {
-	background-color: #4191ce;
+	background-color: #0a61a4;
 	padding:40px 48px;
 }
 .calendar{
@@ -75,6 +75,11 @@ body{
 	background-color: #0a61a4;
 	padding:40px 43px;
 }
+#active{
+	background: #4191ce;
+
+}
+
 /* Rutan längst ned på hela sidan */
 #thefooter{
 	clear:both;
