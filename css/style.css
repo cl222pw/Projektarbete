@@ -10,7 +10,7 @@ header, section, footer, nav, aside, article, hgroup{
 body{
 	text-align:center; /* behövs för äldre browsers för att få allt centrerat */
 	
-	background-image: url(pics/wood.png);
+	background-image: url(pics/wood2.png);
 	background-repeat: no-repeat;
 	background-position: top left;
 	background-attachment: fixed;
@@ -94,7 +94,11 @@ body{
 	color: white;
 }
 
-
+/* centrerar bildspelet */
+#bildspel {
+	display: block;
+	margin: 0px auto;
+}
 
 
 
