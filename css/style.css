@@ -24,7 +24,7 @@ body{
 	margin: 150px auto;
 	text-align:left;
 }
-/* Topruta - banner */
+/* gamedates.net - banner */
 
 #banner {
 	background-image:url('pics/banner.png');
@@ -33,6 +33,8 @@ body{
 	margin-bottom: -86px;
 	background-repeat: no-repeat;
 }
+
+/* ramar in sidan */
 #thecontent {
 	background-color: #4191ce;
 	border: none;
@@ -41,6 +43,8 @@ body{
 	margin: 0px auto;
 	text-align:left;
 }
+
+/* Menyn */
 #menu {
 	margin: 0px;
 	color: white;
@@ -95,7 +99,7 @@ body{
 	margin-top:10px;
 }
 
-/* centrerar bildspelet */
+/* Centrerar bildspelet */
 #bildspel {
 	display: block;
 	margin: 0px auto;
@@ -103,72 +107,30 @@ body{
 }
 
 
-#buttons {
-	margin: 0px;
-	color: white;
-}
-#buttons li {
-	display: inline-block;
-	margin-right: -4px;
-	margin-bottom: 40px;
-}
-
-.prev {
-	font: 22px calibri;
-	background-color:#66a2d1;
-	padding:10px 35px;
-	text-align: center;
-	float:right;
-	
-}
-.next {
-	font: 22px calibri;
-	background-color:#66a2d1;
-	padding:10px 50px;
-	text-align: center;
-	float:left;
-	margin-left: 710px;
-	
-	
-}
-
-#buttons li a:link{
-	color: white;
-	text-decoration: none;
-}
-#buttons li a:visited{
-	color: white;
-	text-decoration: none;
-}
-#buttons li a:hover{
-	color: white;
-	background-color: #0a61a4;
-	text-decoration: none;
-}
-
+/* About strukturen */
 article header h1 {
 	
 	padding: 15px 0px;
 	background-color: #0a61a4;
-	width: 250px;
+	width: 260px;
 	color: white;
 	font: 22px calibri;
 	text-align: center;
 
 }
+article header h2 {
+	margin-top: 10px;
+	padding: 15px 0px;
+	background-color: #0a61a4;
+	width: 260px;
+	color: white;
+	font: 18px calibri;
+	text-align: center;
 
+}
 article section {
 	margin-bottom: 15px;
 	width: 615px;
-	padding: 15px;
-	background-color: #66a2d1;
-	font: 16px calibri;
-	color: white;
-}
-
-.anticipated {
-	margin-bottom: 15px;
-	width: auto;
 	padding: 15px;
 	background-color: #66a2d1;
 	font: 16px calibri;
@@ -181,25 +143,35 @@ article img {
 	height:385px;
 }
 
+/* En liten box som gör att sidans content ligger 10px från loggan och menyn */
 .box {
 	background: #4191ce;
 	padding: 10px 0px;
-
 }
 
-table {
+/* Startsidans tabell */
+.anticipated {
+	margin-bottom: 15px;
+	width: auto;
+	padding: 15px;
+	background-color: #4191ce;
+	font: 16px calibri;
+	color: white;
+}
+.anticipated table {
 	margin: -15px;
 	width: auto;
 	font: 18px calibri;
-
 }
-tr {
+.anticipated tr {
 	background-color:#66a2d1;
 }
-td {
+.anticipated .tdate {
 	padding:5px 65px;
+	width: 105px;
 }
 
+/* Starttabellens toggleklasser */
 .show {
 	display: block;
 }
@@ -208,27 +180,101 @@ td {
 	display: none;
 }
 
+/* Så användaren ska veta att det går att klicka på toggleknappen */
 #hidebutton {
  cursor: pointer;
 
 }
+/* Månadsboxarna som man trycker på för att toggla innehållet */
+.mbars {
+	text-align:left;
+	padding:15px 0px;
+	background:#0a61a4;
+	margin-bottom: 1px;
+}
 
+.mbars a:link{
+	padding: 15px 875px 15px 25px;
+	color: white;
+	text-decoration: none;
+	font: 22px calibri;
+	background-color: #0a61a4;
 
+}
+.mbars a:visited{
+	color: white;
+	text-decoration: none;
+}
+.mbars a:hover{
+	color: white;
+	background-color: #0a61a4;
+	text-decoration: none;
+}
 
+div.mydivs {
+	background: #66a2d1;
+	width: auto;
+	height: 0px;
+	overflow:hidden;
+}
 
+div.mydivs > table {
+	padding:4px 16px;
+	background: #66a2d1;
+	margin-bottom: 1px;
+}
+table {
+	width: auto;
+	font: 18px calibri;
+	color:white;
+}
+tr {
+	background-color:#66a2d1;
+}
+td {
+	padding:10px 50px;
+	vertical-align:top;
+	width:340px;
+}
 
+/* Bilderna i månadstabellerna */
+.calenderbild {
+	height: 80px;
+	width: 60px;
+	text-align: right;
+}
 
+/* td som innehåller bild */
+.timg {
+	width: 60px;
+}
 
+/* td som innehåller vilken platform spelet kommer till */
+.tplatform {
+	width: 85px;
+}
+/* td som innehåller datum */
+.tdate {
+	width: 105px
+}
+/* Om inga spel kommer ut en månad har den denna klass */
+.norelease {
+	width: 1000px;
+}
 
+/* Kalendersidans toggleklasser */
+div.chide {
+	display: none;
+	background: #66a2d1;
+	width: 0px;
+	height: 0px;
+	visibility: hidden;
+}
 
-
-
-
-
-
-
-
-
+div.chide > p {
+	display: none;
+	
+}
 
 
 

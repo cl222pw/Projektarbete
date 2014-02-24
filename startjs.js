@@ -1,3 +1,7 @@
+///////////////////////////////////////////////////////////////////
+
+//Startsida Bildspel//
+
 // packar in vägarna till dom olika bilderna i variabler
 var image1 = new Image()
 image1.src = "pics/01.png"
@@ -32,7 +36,8 @@ bildspel();
 
 /////////////////////////////////////////////////////////////////////
 
-//funktionen toggle
+//Startsida Toggle Knapp Kod//
+
 function toggle(){
 	//om showhide har class = hide, ändra den till class = show
 	if(document.getElementById("showhide").className == "hide")
@@ -46,6 +51,58 @@ function toggle(){
 var hidebutton = document.querySelector("#hidebutton");
 //Gör att när man trycker på showhide knappen så kör man toggle funktionen
 hidebutton.onclick = toggle
+
+
+/////////////////////////////////////////////////////////////////////
+
+//Expanding Boxes Toggle
+
+function expand(element){
+	var target = document.getElementById(element);
+	var h = target.offsetHeight;
+	var sh = target.scrollHeight;
+	var loopTimer = setTimeout('expand(\''+element+'\')',8);
+	if(h < sh){
+		h += 5;
+	} else {
+		clearTimeout(loopTimer);
+	}
+	target.style.height = h+"px";
+}
+function retract(element){
+	var target = document.getElementById(element);
+	var h = target.offsetHeight;
+	var loopTimer = setTimeout('retract(\''+element+'\')',8);
+	if(h > 0){
+		h -= 5;
+	} else {
+		target.style.height = "0px";
+		clearTimeout(loopTimer);
+	}
+	target.style.height = h+"px";
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
