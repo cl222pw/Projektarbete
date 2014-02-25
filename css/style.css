@@ -276,21 +276,63 @@ div.chide > p {
 	
 }
 
+/* Formulär */
+
+.formsection {
+	background-color: #66a2d1;
+	width: 270px;
+
+}
+
+#form {
+	width: 268px;
+	font: 16px calibri;
+	color: white;
+}
+
+#pickgame {
+	padding: 2px;
+	width: 268px;
+	margin: 10px 0px;
+	border: none;
+}
+
+#email {
+	padding: 2px;
+	width: 264px;
+	margin-bottom: 10px;
+	border: none;
+
+}
+
+#fhidebutton {
+ cursor: pointer;
+}
+
+/* Submit interaktivitet */
+#stable {
+	margin-left:-2px;
+	width: 274px;
+	font: 16px calibri;
+}
+#stbody tr {
+	background-color: #4191ce;
+}
+#stbody td {
+	padding-left: 5px;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+#sendbutton {
+	margin: 10px 0px;
+	width: auto;
+	padding: 15px;
+	background-color: #0a61a4;
+	font: 22px calibri;
+	color: white;
+	cursor: pointer;
+	text-align: center; 
+}
 
 
 
