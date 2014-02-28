@@ -44,6 +44,10 @@ body{
 	text-align:left;
 }
 
+#content {
+	background-color: none;
+}
+
 /* Menyn */
 #menu {
 	margin: 0px;

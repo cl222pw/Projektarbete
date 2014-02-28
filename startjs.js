@@ -23,7 +23,7 @@ function bildspel() {
 	//medan om den är 3 så ska den börja om på 1 och därmed börja om bildspelet.
     else nr = 1;
 	//funktionen bildspel ska köras varje 5e sekund
-    setTimeout("bildspel()", 3000);
+    setTimeout("bildspel()", 4000);
 }
 
 

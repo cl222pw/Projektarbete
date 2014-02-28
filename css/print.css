@@ -1,0 +1,361 @@
+/* Reset */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+header, section, footer, nav, aside, article, hgroup{
+	display:block;
+}
+body{
+	text-align:center; /* behövs för äldre browsers för att få allt centrerat */
+	background-image: none;
+
+
+}
+/* Sidans huvuddel, alltså allt utom body bakgrunden */
+#divbody{
+	background-color: white;
+	border: none;
+	width: 1000px;
+	margin: 0px auto;
+	text-align:left;
+}
+/* gamedates.net - banner */
+
+#banner {
+	background: white;
+	width:581px;
+	height:156px;
+	background-repeat: no-repeat;
+	color: black;
+}
+
+/* ramar in sidan */
+#thecontent {
+	background-color: white;
+	border: none;
+	width: 1000px;
+	height: auto;
+	margin: 0px auto;
+	text-align:left;
+}
+
+/* Menyn */
+#menu {
+	display: none;
+	margin: 0px;
+	color: black;
+}
+#menu li {
+	display: inline-block;
+	margin-right: -4px;
+	margin-bottom: 0px;
+}
+
+#menu li a {
+	font: 22px calibri;
+}
+
+#menu li a:link{
+	color: white;
+	text-decoration: none;
+}
+#menu li a:visited{
+	color: white;
+	text-decoration: none;
+}
+#menu li a:hover{
+	color: white;
+	background-color: white;
+	text-decoration: none;
+}
+.start {
+	background-color: white;
+	padding:40px 48px;
+}
+.calendar{
+	background-color: white;
+	padding: 40px 28px;
+}
+.about{
+	background-color: white;
+	padding:40px 43px;
+}
+#active{
+	background: white;
+
+}
+
+/* Rutan längst ned på hela sidan */
+#thefooter{
+	clear:both;
+	font: 13px calibri italic;
+	padding:5px;
+	background: white;
+	border-top: 1px solid black;
+	color: black;
+	margin-top:5px;
+}
+
+/* Centrerar bildspelet */
+#bildspel {
+	display: none;
+	margin: 0px auto;
+	padding-top: 0px;
+}
+
+
+/* About strukturen */
+article header h1 {
+	
+	padding: 0px 0px;
+	background-color: white;
+	width: 260px;
+	color: black;
+	font: 22px calibri;
+	text-align: left;
+
+}
+article header h2 {
+	margin-top: 0px;
+	padding: 15px 0px;
+	background-color: white;
+	width: 260px;
+	color: black;
+	font: 18px calibri;
+	text-align: center;
+
+}
+article section {
+	margin-bottom: 15px;
+	width: 615px;
+	padding: 15px;
+	background-color: white;
+	font: 16px calibri;
+	color: black;
+}
+
+article img {
+	float: right;
+	margin-right: 20px;
+	height:385px;
+}
+
+/* En liten box som gör att sidans content ligger 10px från loggan och menyn */
+.box {
+	background: white;
+	padding: 0px 0px;
+}
+
+/* Startsidans tabell */
+.anticipated {
+	margin-bottom: 15px;
+	width: auto;
+	padding: 15px;
+	background-color: white;
+	font: 16px calibri;
+	color: black;
+}
+.anticipated table {
+	margin: -15px;
+	width: auto;
+	font: 18px calibri;
+}
+.anticipated tr {
+	background-color:white;
+}
+.anticipated .tdate {
+	padding:5px 65px;
+	width: 105px;
+}
+
+.show {
+	display: block;
+}
+
+.hide {
+	display: block;
+}
+
+#fshowhide {
+	display: none;
+
+}
+
+/* Så användaren ska veta att det går att klicka på toggleknappen */
+#hidebutton {
+ cursor: pointer;
+
+}
+/* Månadsboxarna som man trycker på för att toggla innehållet */
+.mbars {
+	text-align:left;
+	padding:15px 0px;
+	background:white;
+	margin-bottom: 1px;
+}
+
+.mbars a:link{
+	padding: 15px 875px 15px 25px;
+	color: black;
+	text-decoration: none;
+	font: 22px calibri;
+	background-color: white;
+
+}
+.mbars a:visited{
+	color: black;
+	text-decoration: none;
+}
+.mbars a:hover{
+	color: black;
+	background-color: white;
+	text-decoration: none;
+}
+
+div.mydivs {
+	background: white;
+	width: auto;
+	height: 0px;
+	overflow:hidden;
+}
+
+div.mydivs > table {
+	padding:4px 16px;
+	background: white;
+	margin-bottom: 1px;
+}
+table {
+	width: auto;
+	font: 18px calibri;
+	color:black;
+}
+tr {
+	background-color:white;
+}
+td {
+	padding:10px 50px;
+	vertical-align:top;
+	width:340px;
+}
+
+/* Bilderna i månadstabellerna */
+.calenderbild {
+	height: 80px;
+	width: 60px;
+	text-align: right;
+}
+
+/* td som innehåller bild */
+.timg {
+	width: 60px;
+}
+
+/* td som innehåller vilken platform spelet kommer till */
+.tplatform {
+	width: 85px;
+}
+/* td som innehåller datum */
+.tdate {
+	width: 105px
+}
+/* Om inga spel kommer ut en månad har den denna klass */
+.norelease {
+	width: 1000px;
+}
+
+/* Kalendersidans toggleklasser */
+div.chide {
+	display: block;
+	background: white;
+	width: auto;
+	height: auto;
+	visibility: visible;
+}
+
+div.chide > p {
+	display: block;
+	
+}
+
+/* Formulär */
+
+.formsection {
+	background-color: white;
+	width: 270px;
+
+}
+
+#form {
+	width: 268px;
+	font: 16px calibri;
+	color: black;
+}
+
+#pickgame {
+	padding: 2px;
+	width: 268px;
+	margin: 10px 0px;
+	border: none;
+}
+
+#email {
+	padding: 2px;
+	width: 264px;
+	margin-bottom: 10px;
+	border: none;
+
+}
+
+#fhidebutton {
+	display: none;
+	cursor: pointer;
+}
+
+/* Submit interaktivitet */
+#stable {
+	margin-left:-2px;
+	width: 274px;
+	font: 16px calibri;
+}
+#stbody tr {
+	background-color: white;
+}
+#stbody td {
+	padding-left: 5px;
+}
+
+
+#sendbutton {
+	margin: 10px 0px;
+	width: auto;
+	padding: 15px;
+	background-color: white;
+	font: 22px calibri;
+	color: black;
+	cursor: pointer;
+	text-align: center; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.printonly{
+	display: block;
+	font: 40px Arial;
+	margin-bottom: 25px;
+}
