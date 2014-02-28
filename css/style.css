@@ -18,7 +18,6 @@ body{
 }
 /* Sidans huvuddel, alltså allt utom body bakgrunden */
 #divbody{
-	background-color: ;
 	border: none;
 	width: 1000px;
 	margin: 150px auto;
@@ -42,10 +41,6 @@ body{
 	height: auto;
 	margin: 0px auto;
 	text-align:left;
-}
-
-#content {
-	background-color: none;
 }
 
 /* Menyn */
